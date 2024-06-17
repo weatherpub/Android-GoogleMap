@@ -3,6 +3,7 @@ package edu.sfsu.googlemap;
 import androidx.fragment.app.FragmentActivity;
 
 import android.os.Bundle;
+import android.window.SplashScreen;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -20,6 +21,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //SplashScreen splashScreen = new SplashScreen.installSplashScreen(this);
         super.onCreate(savedInstanceState);
 
         binding = ActivityMapsBinding.inflate(getLayoutInflater());

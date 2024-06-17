@@ -50,13 +50,14 @@ android {
 /**
  * This is the "Module Level" build.gradle file
  */
-
 dependencies {
     implementation(libs.appcompat)
     implementation(libs.constraintlayout)
     implementation(libs.googleMaps)
     implementation(libs.material)
     implementation(libs.play.services.maps)
+    // implementation(libs.splashScreen)
+    implementation(libs.activity)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
